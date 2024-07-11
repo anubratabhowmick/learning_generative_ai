@@ -3,3 +3,4 @@
 MCQ_Generator/env/
 MCQ_Generator/logs/
 mcqgenerator.egg-info
+MCQ_Generator/__pycache__/
