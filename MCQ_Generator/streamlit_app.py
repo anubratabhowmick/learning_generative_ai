@@ -74,7 +74,7 @@ with st.form("user_inputs"):
                             st.table(df)
                             
                             # Display the review in a text box
-                            st.text_area(label='Review', value=response['review'])
+                            st.text_area(label='Review', value=response['review'], max_chars=50)
                         else:
                             st.error('Error in the table data!')
                             

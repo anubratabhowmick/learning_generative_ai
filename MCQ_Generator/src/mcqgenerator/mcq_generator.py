@@ -23,7 +23,6 @@ llm = ChatOpenAI(
     temperature = 0.5
 )
 
-
 quiz_generation_prompt = PromptTemplate(
     input_variables=['text', 'number', 'subject', 'tone', 'response_json'],
     template=TEMPLATE1

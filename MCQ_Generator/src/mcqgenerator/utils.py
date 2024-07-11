@@ -36,7 +36,7 @@ def get_table_data(quiz_str):
         for key, value in quiz_dict.items():
             mcq = value['mcq']
             
-            options = ' | '.join(
+            options = ' || '.join(
                 [f'{option}->{option_value}' for option, option_value in value["options"].items()]
             )
             
