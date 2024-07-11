@@ -1,3 +1,4 @@
 .env
 *.pdf
 MCQ_Generator/env/
+mcqgenerator.egg-info
