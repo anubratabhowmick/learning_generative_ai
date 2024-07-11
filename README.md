@@ -1,1 +1,1 @@
-# learning_generative_ai
+# Learning Generative AI
