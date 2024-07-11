@@ -1,6 +1,6 @@
 .env
 *.pdf
-MCQ_Generator/env/
-MCQ_Generator/logs/
+*/env/
+*/logs/
 mcqgenerator.egg-info
-MCQ_Generator/__pycache__/
+*__pycache__/
