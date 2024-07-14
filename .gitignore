@@ -4,3 +4,6 @@
 */logs/
 mcqgenerator.egg-info
 *__pycache__/
+*db/
+*learning_data/
+*.zip
