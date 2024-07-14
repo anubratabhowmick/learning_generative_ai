@@ -8,3 +8,4 @@ mcqgenerator.egg-info
 *learning_data/
 *.zip
 */mchatbot/
+*llama-2-7b-chat.ggmlv3.q4_0.bin
