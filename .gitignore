@@ -7,3 +7,4 @@ mcqgenerator.egg-info
 *db/
 *learning_data/
 *.zip
+*/mchatbot/
