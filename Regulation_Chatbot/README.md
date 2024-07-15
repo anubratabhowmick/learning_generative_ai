@@ -29,3 +29,21 @@ llama-2-7b-chat.ggmlv3.q4_0.bin
 https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
 ```
 
+```bash
+python create_index.py
+```
+
+```bash
+python store_index.py
+```
+
+```bash
+python create_store.py
+```
+
+```bash
+python app.py
+```
+
+### Screenshot
+![alt text](image.png)

@@ -20,6 +20,3 @@ docsearch = Pinecone.from_texts(
     embedding,
     index_name = 'regulation-chatbot'
 )
-
-
-
