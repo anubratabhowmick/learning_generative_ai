@@ -3,6 +3,7 @@
 */env/
 */logs/
 mcqgenerator.egg-info
+Regulation_Chatbot.egg-info
 *__pycache__/
 *db/
 *learning_data/
