@@ -7,5 +7,8 @@ mcqgenerator.egg-info
 *db/
 *learning_data/
 *.zip
-*/mchatbot/
+*/regulation_chatbot/
 *llama-2-7b-chat.ggmlv3.q4_0.bin
+*vscode
+*github
+*/data/
