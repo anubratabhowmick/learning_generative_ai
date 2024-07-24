@@ -10,10 +10,15 @@
 import streamlit as st
 import ollama 
 
-def get_llama_response(message):
+def get_llm_response(option, message):
+    if option == 'Mistral-Large':
+        llm_model = 'mistral-large'
+    elif option == 'Llama3.1':
+        llm_model = 'llama3.1'
+        
     try:
         response = ollama.chat(
-            model = 'llama3.1',
+            model = llm_model,
             messages = message
         )
         return response['message']['content']
@@ -22,7 +27,12 @@ def get_llama_response(message):
         return None
     
 def main():
-    st.title("Chat with Llama3.1")
+    st.title("Chat with Open Source LLMs")
+    
+    option = st.selectbox(
+        'What model would you like to chat with?',
+        ('Llama3.1', 'Mistral-Large')
+    )
     
     # Initiate the Chat history
     if "messages" not in st.session_state:
@@ -46,7 +56,7 @@ def main():
             st.markdown(prompt)
             
         # Get the Llama response
-        llama_resp = get_llama_response(st.session_state.messages)
+        llama_resp = get_llm_response(option, st.session_state.messages)
         
         # Display the response
         with st.chat_message('assistant'):
